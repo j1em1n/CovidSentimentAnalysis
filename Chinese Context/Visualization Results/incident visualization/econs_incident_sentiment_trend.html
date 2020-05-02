@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="6a830d42e5964970b55d2dd814323cdc" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_6a830d42e5964970b55d2dd814323cdc = echarts.init(
+            document.getElementById('6a830d42e5964970b55d2dd814323cdc'), 'white', {renderer: 'canvas'});
+        var option_6a830d42e5964970b55d2dd814323cdc = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "positive",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": true,
+            "step": false,
+            "data": [
+                [
+                    "23 Jan",
+                    33.04
+                ],
+                [
+                    "26 Jan",
+                    20.68
+                ],
+                [
+                    "1 Feb",
+                    4.7071
+                ],
+                [
+                    "24 Feb",
+                    6.4516
+                ],
+                [
+                    "19 Mar",
+                    27.0471
+                ],
+                [
+                    "27 Mar",
+                    42.7451
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "negative",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": true,
+            "step": false,
+            "data": [
+                [
+                    "23 Jan",
+                    57.69
+                ],
+                [
+                    "26 Jan",
+                    75.21
+                ],
+                [
+                    "1 Feb",
+                    72.9192
+                ],
+                [
+                    "24 Feb",
+                    90.3226
+                ],
+                [
+                    "19 Mar",
+                    66.2531
+                ],
+                [
+                    "27 Mar",
+                    46.2745
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        },
+        {
+            "type": "line",
+            "name": "neutral",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": true,
+            "step": false,
+            "data": [
+                [
+                    "23 Jan",
+                    2.29
+                ],
+                [
+                    "26 Jan",
+                    2.35
+                ],
+                [
+                    "1 Feb",
+                    1.7677
+                ],
+                [
+                    "24 Feb",
+                    3.2258
+                ],
+                [
+                    "19 Mar",
+                    4.2184
+                ],
+                [
+                    "27 Mar",
+                    2.7451
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "positive",
+                "negative",
+                "neutral"
+            ],
+            "selected": {
+                "positive": true,
+                "negative": true,
+                "neutral": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": -40,
+                "margin": 8
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "23 Jan",
+                "26 Jan",
+                "1 Feb",
+                "24 Feb",
+                "19 Mar",
+                "27 Mar"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "Percentage/%",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Economics Sentiment Percentage",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_6a830d42e5964970b55d2dd814323cdc.setOption(option_6a830d42e5964970b55d2dd814323cdc);
+    </script>
+</body>
+</html>
